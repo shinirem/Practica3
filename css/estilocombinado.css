@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+#titulo>h1{
+    color: red;
+    background: black;
+    padding:30px;
+}
+#flu{
+    background: yellow;
+}
+#den{
+    background:black;
+    color:white;
+    margin:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#flu>h2{
+    text-align: center;
+}
+#flu>p{
+    text-align: justify;
+}
