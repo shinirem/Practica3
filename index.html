@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #aside {
+            height: 840px;
+        }
+
+        #section {
+            height: 300px;
+            background: rgb(112, 112, 112);
+        }
+
+        #principal {
+            color: rgb(255, 255, 255);
+            text-shadow: 3px 2px rgb(0, 0, 0);
+        }
+
+        #menu {
+            color: white;
+        }
+
+        body {
+            background: rgb(255, 255, 255);
+        }
+
+        #uno,
+        #dos,
+        #tres,
+        #cuatro,
+        #cinco,
+        #seis {
+            height: 300px;
+            width: 350px;
+            margin-bottom: 30px;
+            float: left;
+        }
+
+        #encabezado {
+            height: 50px;
+            width: 350px;
+            margin-top: 30px;
+            float: left;
+            border-radius: 20px 20px 20px 20px;
+            text-align: center;
+            background: rgb(211, 211, 211);
+            margin-bottom: 0px;
+        }
+
+        #uno {
+            background: rgb(209, 209, 209);
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        #dos {
+            background: rgb(209, 209, 209);
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        #tres {
+            background: rgb(209, 209, 209);
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        h6 {
+            padding: 10px;
+            text-align: justify;
+        }
+
+        #fondo {
+            background: rgb(255, 255, 255);
+        }
+
+        #pie {
+            padding: .5em 0;
+            margin-top: 1px;
+            border-top: 1px solid #c5c5c5;
+            border-bottom: 1px solid #c5c5c5;
+            background-color: #a8a8a8;
+        }
+
+        #space {
+            padding: 10px;
+        }
+
+        #espacio {
+            margin-top: 20px;
+        }
+
+        #tit {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-bottom: 30px;
+            margin-top: 60px;
+            text-shadow: 3px 2px rgb(0, 49, 122);
+        }
+        #caract{
+            padding:10px;
+            text-align: justify;
+        }
+    </style>
+    <title>AutoShop</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <nav class="black">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="index.html" class="brand-logo">AutoShop.com</a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="quienessomos.html">Quienes somos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="sidenav" id="menu-responsive" style="background: rgb(112, 112, 112);">
+            <li><a href="quienessomos.html" id="menu">Quienes somos</a></li>
+            <div class="divider"></div>
+            <li><a href="blog.html" id="menu">Blog</a></li>
+            <div class="divider"></div>
+            <li><a href="servicios.html" id="menu">Servicios</a></li>
+            <div class="divider"></div>
+            <li><a href="contactos.html" id="menu">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col s9">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col s12">
+
+
+
+
+
+                            <h4 id="tit">COMPRA TU VEHICULO NUEVO CON NOSOTROS EN AUTOSHOP.COM</h4>
+                            <!-- inicio SLIDER -->
+                            <div class="slider">
+                                <ul class="slides">
+                                    <li id="principal">
+                                        <a href="index.html"><img src="img/carshop.png" alt=""></a>
+                                        <div class="caption center-align">
+                                            <h2 id="principal"></h2>
+                                            <h3 id="principal"></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="deportivos.html"><img src="img/deportivos.jpg"></a>
+                                        <div class="caption center-align">
+                                            <h2 id="principal">CATEGORIA DEPORTIVOS</h2>
+                                            <h3 id="principal"><a href="deportivos.html" id="principal">Ver
+                                                    mas...</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="clasicos.html"><img src="img/clasicos.jpg"></a>
+                                        <div class="caption left-align">
+                                            <h2 id="principal">CATEGORIA CLASICOS</h2>
+                                            <h3 id="principal"><a href="clasicos.html" id="principal">Ver
+                                                    mas...</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="ejecutivos.html"><img src="img/empresarial.jpg"></a>
+                                        <div class="caption right-align">
+                                            <h2 id="principal">CATEGORIA EJECUTIVOS</h2>
+                                            <h3 id="principal"><a href="ejecutivos.html" id="principal">Ver
+                                                    mas...</a></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- FIN SLIDER -->
+
+
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+
+
+
+
+                            <div class="row">
+                                <div class="col s4">
+                                    <div id="encabezado">
+                                        <h5>CORPORACION</h5>
+                                    </div>
+                                </div>
+                                <div class="col s4">
+                                    <div id="encabezado">
+                                        <h5>MISION</h5>
+                                    </div>
+                                </div>
+                                <div class="col s4">
+                                    <div id="encabezado">
+                                        <h5>VISION</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4">
+                                    <div id="uno">
+                                        <h6 class="light">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                                soluta sapiente nesciunt
+                                                consequatur nihil porro dolores numquam ipsum inventore eos
+                                                dolorem accusamus fuga iusto et sunt,
+                                                explicabo, praesentium aperiam amet? Aspernatur blanditiis ad
+                                                dignissimos quia temporibus illo, magni
+                                                est</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                                soluta sapiente nesciunt
+                                                consequatur nihil porro dolores numquam ipsum inventore eos
+                                                dolorem accusamus fuga iusto et sunt,
+                                                explicabo, praesentium aperiam.</p>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col s4">
+                                    <div id="dos">
+                                        <h6 class="light">
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
+                                                delectus temporibus debitis cumque dolor
+                                                odit ratione at quis omnis praesentium dolores, dicta
+                                                perferendis ad. Dolorem, nisi! Velit ut in quam
+                                                sint, dolore eligendi veritatis consequatur quidem! Optio
+                                                repellendus at omnis ut voluptates, culpa
+                                                nulla aspernatur a quia praesentium sed distinctio iure repellat
+                                                cumque explicabo, vel necessitatibus
+                                                architecto nihil eos veritatis atque accusamus! Temporibus porro
+                                                nisi dolores. Ab rerum repellat odit.
+                                                Commodi, unde voluptas. Reiciendis deleniti repudiandae.
+                                            </p>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col s4">
+                                    <div id="tres">
+                                        <h6 class="light">
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                                                sequi adipisci. Quae cum eius quam
+                                                dolorem error itaque delectus temporibus!
+                                            </p>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                                                sequi adipisci. Quae cum eius quam
+                                                dolorem error itaque delectus temporibus!
+                                            </p>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                                                sequi adipisci. Quae cum eius quam
+                                                dolorem error itaque delectus.
+                                            </p>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col s12">
+                            <h4 id="tit">FAVORITOS</h4>
+                <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header">Categoria Deportivos</div>
+                      <div class="collapsible-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="row">
+                                        <img src="img/deportivo9.jpg" height="90px">
+                                    </div>
+                                    <div class="row">
+                                        <p id="caract">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum cumque ducimus saepe soluta ea dolore culpa enim ut nobis magnam.</p>
+                                        <br>
+                                        <a href="deportivos.html">ir a Deportivos</a>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="row">
+                                        <img src="img/deportivo4.jpg" height="90px">
+                                    </div>
+                                    <div class="row">
+                                        <p id="caract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias earum explicabo, illo nihil vero unde id esse delectus in!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header">Categoria Clasicos</div>
+                      <div class="collapsible-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="row">
+                                        <img src="img/clasico5.jpg" height="90px">
+                                    </div>
+                                    <div class="row">
+                                        <p id="caract">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem minima assumenda omnis soluta recusandae, ipsam consequatur debitis atque molestias error.</p>
+                                        <br>
+                                        <a href="clasicos.html">ir a Clasicos</a>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="row">
+                                        <img src="img/clasico7.jpg" height="90px">
+                                    </div>
+                                    <div class="row">
+                                        <p id="caract">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, earum ullam praesentium voluptatem reprehenderit autem non natus sapiente consequuntur nobis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header">Categoria Ejecutivos</div>
+                      <div class="collapsible-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col s6">
+                                    <div class="row">
+                                        <img src="img/ejecutivo1.png" height="90px">
+                                    </div>
+                                    <div class="row">
+                                        <p id="caract">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt neque doloribus cum doloremque hic animi rem eligendi quisquam esse minus.</p>
+                                        <br>
+                                        <a href="ejecutivos.html">ir a Ejecutivos</a>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <div class="row">
+                                        <img src="img/ejecutivo4.png" height="90px">
+                                    </div>
+                                    <div class="row">
+                                        <p id="caract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur accusantium beatae laudantium ex commodi debitis amet minima quibusdam quaerat?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="vol s12">
+                            
+
+                            <div class="row">
+                                <form class="col s12">
+                                  <div class="row">
+                                    <div class="input-field col s6">
+                                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                      <label for="first_name">First Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                      <input id="last_name" type="text" class="validate">
+                                      <label for="last_name">Last Name</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="input-field col s12">
+                                      <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                                      <label for="disabled">Disabled</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="input-field col s12">
+                                      <input id="password" type="password" class="validate">
+                                      <label for="password">Password</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="input-field col s12">
+                                      <input id="email" type="email" class="validate">
+                                      <label for="email">Email</label>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h4 style="text-align: center;">TIPO DE CAMBIO</h4>
+                <table class="striped">
+                    <thead>
+                      <tr>
+                          <th>DOLAR $</th>
+                          <th>BOLIVIANO BOB</th>
+                          <th>PESOS CHILENOS</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td>1 Dolar</td>
+                        <td>6.90 Bolivianos</td>
+                        <td>715,59 PesosCH</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="black">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a>Siguenos en nuestras reder sociales</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="https://es-la.facebook.com/"><img src="img/facebook.jpg" height="65px"
+                                    id="space"></a></li>
+                        <li><a href="https://twitter.com/login?lang=es/"><img src="img/twitter.jpg" height="65px"
+                                    id="space"></a></li>
+                        <li><a href="https://www.instagram.com/?hl=es-la"><img src="img/instagram.jpg" height="65px"
+                                    id="space"></a></li>
+                        <li><a href="https://www.whatsapp.com/"><img src="img/whatsapp.jpg" height="65px"
+                                    id="space"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+    <!-- Compiled and minified JavaScript MATERIALIZE-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- ACTIVADOR DEL SLIDER -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems,
+                {//elementos del slider
+                    indicators: true,  //indicadores, hace referencia a los puntos. trueVisibles, falseInvisibles  
+                    height: 550, //controla el alto de las imagenes
+                    duration: 1000, //controla el tiempo en que el texto se acomode
+                    interval: 6000 //controla el tiempo de trancision de las imagenes
+                });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+    </script>
+
+
+</body>
+
+</html>
